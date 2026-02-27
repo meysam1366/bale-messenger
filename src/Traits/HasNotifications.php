@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelIran\BaleMessenger\Traits;
+namespace meysammaghsoudi\BaleMessenger\Traits;
 
-use LaravelIran\BaleMessenger\Messages\MessageBuilder;
+use meysammaghsoudi\BaleMessenger\Messages\MessageBuilder;
 
 /**
  * تریت برای ارسال نوتیفیکیشن‌های آماده

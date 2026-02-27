@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelIran\BaleMessenger;
+namespace meysammaghsoudi\BaleMessenger;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use LaravelIran\BaleMessenger\Contracts\BaleClientInterface;
-use LaravelIran\BaleMessenger\Exceptions\BaleApiException;
-use LaravelIran\BaleMessenger\Exceptions\BaleConnectionException;
+use meysammaghsoudi\BaleMessenger\Contracts\BaleClientInterface;
+use meysammaghsoudi\BaleMessenger\Exceptions\BaleApiException;
+use meysammaghsoudi\BaleMessenger\Exceptions\BaleConnectionException;
 
 /**
  * کلاس اصلی ارتباط با API پیام‌رسان بله

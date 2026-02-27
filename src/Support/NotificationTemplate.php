@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelIran\BaleMessenger\Support;
+namespace meysammaghsoudi\BaleMessenger\Support;
 
-use LaravelIran\BaleMessenger\Messages\MessageBuilder;
+use meysammaghsoudi\BaleMessenger\Messages\MessageBuilder;
 
 /**
  * کلاس پایه قالب نوتیفیکیشن

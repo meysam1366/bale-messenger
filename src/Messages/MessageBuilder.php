@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelIran\BaleMessenger\Messages;
+namespace meysammaghsoudi\BaleMessenger\Messages;
 
 /**
  * کلاس ساخت پیام‌های زیبا و فرمت‌شده برای بله

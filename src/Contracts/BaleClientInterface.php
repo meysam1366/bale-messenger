@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelIran\BaleMessenger\Contracts;
+namespace meysammaghsoudi\BaleMessenger\Contracts;
 
 /**
  * اینترفیس کلاینت بله

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelIran\BaleMessenger\Exceptions;
+namespace meysammaghsoudi\BaleMessenger\Exceptions;
 
 use Exception;
 

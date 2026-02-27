@@ -35,7 +35,7 @@
 ### ۱. نصب با Composer
 
 ```bash
-composer require laravel-ir/bale-messenger
+composer require meysammaghsoudi/bale-messenger
 ```
 
 ### ۲. انتشار فایل کانفیگ
@@ -60,7 +60,7 @@ BALE_DEFAULT_CHAT_ID=123456789
 ### ارسال پیام ساده
 
 ```php
-use LaravelIran\BaleMessenger\Facades\Bale;
+use meysammaghsoudi\BaleMessenger\Facades\Bale;
 
 // ارسال پیام ساده
 Bale::send('سلام! این یک پیام تست است.', 123456789);
@@ -72,7 +72,7 @@ Bale::to(123456789)->send('سلام دنیا!');
 ### ارسال پیام‌های زیبا
 
 ```php
-use LaravelIran\BaleMessenger\Facades\Bale;
+use meysammaghsoudi\BaleMessenger\Facades\Bale;
 
 // پیام موفقیت
 Bale::sendSuccess('ثبت‌نام موفق', 'کاربر با موفقیت ثبت‌نام شد.');
@@ -112,7 +112,7 @@ Bale::sendLocation(35.6892, 51.3890); // تهران
 ### مثال پایه
 
 ```php
-use LaravelIran\BaleMessenger\Facades\Bale;
+use meysammaghsoudi\BaleMessenger\Facades\Bale;
 
 $message = Bale::message()
     ->header('گزارش فروش', 1)
@@ -205,7 +205,7 @@ $message = Bale::message()
 
 ```php
 use Illuminate\Notifications\Notification;
-use LaravelIran\BaleMessenger\Messages\MessageBuilder;
+use meysammaghsoudi\BaleMessenger\Messages\MessageBuilder;
 
 class OrderCreatedNotification extends Notification
 {
@@ -263,7 +263,7 @@ $user->notify(new OrderCreatedNotification($order));
 ### نوتیفیکیشن‌های سریع
 
 ```php
-use LaravelIran\BaleMessenger\Facades\Bale;
+use meysammaghsoudi\BaleMessenger\Facades\Bale;
 
 // کاربر جدید
 Bale::notifyNewUser([
@@ -304,7 +304,7 @@ Bale::notifyDailyReport([
 ### استفاده از قالب‌های کلاسی
 
 ```php
-use LaravelIran\BaleMessenger\Support\Templates\OrderNotification;
+use meysammaghsoudi\BaleMessenger\Support\Templates\OrderNotification;
 
 $orderNotification = (new OrderNotification())
     ->orderId(1234)

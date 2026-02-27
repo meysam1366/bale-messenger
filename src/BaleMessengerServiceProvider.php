@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelIran\BaleMessenger;
+namespace meysammaghsoudi\BaleMessenger;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelIran\BaleMessenger\Contracts\BaleClientInterface;
+use meysammaghsoudi\BaleMessenger\Contracts\BaleClientInterface;
 
 /**
  * سرویس‌پروایدر پکیج بله

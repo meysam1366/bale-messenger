@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelIran\BaleMessenger\Support\Templates;
+namespace meysammaghsoudi\BaleMessenger\Support\Templates;
 
-use LaravelIran\BaleMessenger\Support\NotificationTemplate;
+use meysammaghsoudi\BaleMessenger\Support\NotificationTemplate;
 
 /**
  * قالب نوتیفیکیشن سفارش جدید

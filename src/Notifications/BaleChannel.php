@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelIran\BaleMessenger\Notifications;
+namespace meysammaghsoudi\BaleMessenger\Notifications;
 
 use Illuminate\Notifications\Notification;
-use LaravelIran\BaleMessenger\BaleService;
-use LaravelIran\BaleMessenger\Messages\MessageBuilder;
+use meysammaghsoudi\BaleMessenger\BaleService;
+use meysammaghsoudi\BaleMessenger\Messages\MessageBuilder;
 
 /**
  * کانال نوتیفیکیشن بله برای لاراول

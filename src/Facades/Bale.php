@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelIran\BaleMessenger\Facades;
+namespace meysammaghsoudi\BaleMessenger\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use LaravelIran\BaleMessenger\BaleService;
-use LaravelIran\BaleMessenger\Messages\MessageBuilder;
+use meysammaghsoudi\BaleMessenger\BaleService;
+use meysammaghsoudi\BaleMessenger\Messages\MessageBuilder;
 
 /**
  * Facade برای دسترسی آسان به سرویس بله
@@ -25,7 +25,7 @@ use LaravelIran\BaleMessenger\Messages\MessageBuilder;
  * @method static array getMe()
  * @method static float ping()
  *
- * @see \LaravelIran\BaleMessenger\BaleService
+ * @see \meysammaghsoudi\BaleMessenger\BaleService
  */
 class Bale extends Facade
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelIran\BaleMessenger;
+namespace meysammaghsoudi\BaleMessenger;
 
-use LaravelIran\BaleMessenger\Contracts\BaleClientInterface;
-use LaravelIran\BaleMessenger\Messages\MessageBuilder;
-use LaravelIran\BaleMessenger\Traits\HasNotifications;
-use LaravelIran\BaleMessenger\Support\NotificationTemplate;
+use meysammaghsoudi\BaleMessenger\Contracts\BaleClientInterface;
+use meysammaghsoudi\BaleMessenger\Messages\MessageBuilder;
+use meysammaghsoudi\BaleMessenger\Traits\HasNotifications;
+use meysammaghsoudi\BaleMessenger\Support\NotificationTemplate;
 
 /**
  * سرویس اصلی ارسال پیام به بله
