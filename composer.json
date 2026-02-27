@@ -31,21 +31,21 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelIran\\BaleMessenger\\": "src/"
+            "meysammaghsoudi\\BaleMessenger\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LaravelIran\\BaleMessenger\\Tests\\": "tests/"
+            "meysammaghsoudi\\BaleMessenger\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelIran\\BaleMessenger\\BaleMessengerServiceProvider"
+                "meysammaghsoudi\\BaleMessenger\\BaleMessengerServiceProvider"
             ],
             "aliases": {
-                "Bale": "LaravelIran\\BaleMessenger\\Facades\\Bale"
+                "Bale": "meysammaghsoudi\\BaleMessenger\\Facades\\Bale"
             }
         }
     },
