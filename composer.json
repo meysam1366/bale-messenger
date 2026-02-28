@@ -10,7 +10,6 @@
         "iran",
         "persian"
     ],
-    "version": "1.0",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -51,7 +50,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
